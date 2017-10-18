@@ -11,7 +11,8 @@ gem 'rails', '~> 5.0.6'
 
 gem 'rails-i18n'
 
-gem 'better_errors'
+gem 'devise'
+gem 'devise-i18n'
 
 # Use postgresql as the database for Active Record
 gem 'pg', '~> 0.18'
@@ -43,6 +44,7 @@ gem 'jbuilder', '~> 2.5'
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platform: :mri
+  gem 'better_errors'
 end
 
 group :development do
