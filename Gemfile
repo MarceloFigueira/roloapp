@@ -13,7 +13,8 @@ gem 'rails-i18n'
 
 gem 'devise'
 gem 'devise-i18n'
-
+#Rails gem of the Bootstrap based admin theme SB Admin 2.
+gem 'bootstrap_sb_admin_base_v2'
 
 
 # Use postgresql as the database for Active Record
