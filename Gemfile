@@ -14,6 +14,8 @@ gem 'rails-i18n'
 gem 'devise'
 gem 'devise-i18n'
 
+
+
 # Use postgresql as the database for Active Record
 gem 'pg', '~> 0.18'
 # Use Puma as the app server
@@ -45,6 +47,8 @@ group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platform: :mri
   gem 'better_errors'
+  #gem para gerar graficos de modelagem er
+  gem 'rails-erd'
 end
 
 group :development do
